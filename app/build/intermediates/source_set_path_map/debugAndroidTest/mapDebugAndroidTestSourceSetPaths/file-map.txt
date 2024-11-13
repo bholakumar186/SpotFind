@@ -1,0 +1,5 @@
+com.example.spotfind.test.app-core-1.6.1-0 C:\Users\ALINA ALI\.gradle\caches\transforms-4\d41cee6a5a1b13f3117075c875533456\transformed\core-1.6.1\res
+com.example.spotfind.test.app-androidTest-1 C:\Users\ALINA ALI\AndroidStudioProjects\SpotFind\app\build\generated\res\resValues\androidTest\debug
+com.example.spotfind.test.app-mergeDebugAndroidTestResources-2 C:\Users\ALINA ALI\AndroidStudioProjects\SpotFind\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.spotfind.test.app-mergeDebugAndroidTestResources-3 C:\Users\ALINA ALI\AndroidStudioProjects\SpotFind\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.spotfind.test.app-debugAndroidTest-4 C:\Users\ALINA ALI\AndroidStudioProjects\SpotFind\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

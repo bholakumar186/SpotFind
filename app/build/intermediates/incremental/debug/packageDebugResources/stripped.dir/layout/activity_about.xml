@@ -1,0 +1,86 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:padding="16dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- App Description Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About Us"
+            android:textSize="36sp"
+            android:textColor="#132348"
+            android:textStyle="bold"
+            android:id="@+id/tvAboutUs"
+            android:padding="15dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <TextView
+            android:id="@+id/textView_app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SpotFind"
+            android:textColor="#132348"
+            app:layout_constraintTop_toBottomOf="@id/tvAboutUs"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/textView_app_description"
+            app:layout_constraintTop_toBottomOf="@id/textView_app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SpotFind is a comprehensive solution for urban parking management. Leveraging mobile technology and geolocation, SpotFind allows users to find and reserve parking spaces with ease. It streamlines the parking experience by providing real-time availability and location-based search, making urban commuting more convenient and efficient."
+            android:textSize="16sp"
+            android:paddingBottom="16dp"/>
+
+        <!-- Developer Details Section -->
+        <TextView
+            android:id="@+id/textView_developer_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/textView_app_description"
+            android:text="Developer Details"
+            android:textColor="#132348"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/textView_developer_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/textView_developer_header"
+            android:text="Name: [User's Name]"
+            android:textSize="16sp"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/textView_developer_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/textView_developer_name"
+            android:text="Email: [User's Email]"
+            android:textSize="16sp"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/textView_developer_linkedin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/textView_developer_email"
+            android:text="LinkedIn: [User's LinkedIn Profile]"
+            android:textSize="16sp"
+            android:autoLink="web"
+            android:paddingBottom="16dp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
